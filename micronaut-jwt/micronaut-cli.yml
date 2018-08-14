@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: example
+---
+testFramework: spock # to set spock as test framework
+sourceLanguage: java

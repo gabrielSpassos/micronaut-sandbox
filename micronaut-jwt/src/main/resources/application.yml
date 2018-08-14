@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: micronaut
+  server:
+    port: 8080
+  security:
+    enabled: true
+    endpoints:
+      login:
+        enabled: true
+      oauth:
+        enabled: true
+    token:
+      jwt:
+        enabled: true
+        signatures:
+          secret:
+            generator:
+              secret: pleaseChangeThisSecretForANewOne
